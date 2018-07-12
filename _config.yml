@@ -78,4 +78,7 @@ theme: hehe
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/mayuehehe/mayuehehe.git
+  branch: master
+  message: hahahahah
