@@ -1,0 +1,19 @@
+<div width="80%">
+
+    <% site.posts.each(function(post) { %>
+        <% if (post.banner) { %>
+            <img src="<%- post.banner %>" class="article-banner" />
+        <% } %>
+
+        <h1>
+            <%- post.title %>
+        </h1>
+        <br>
+        <%= date(post.date, null) %>
+        <br>
+        <%- post.title %>
+        <br>
+        <%- post.categorie1 %>
+        <%- post.content %>
+        <% });%>
+</div>
